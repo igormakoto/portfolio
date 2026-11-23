@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br" data-bs-theme="dark">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +8,24 @@
 
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-   
+
+    <!-- Fonte e ícones -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
     
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
- 
+    
     <nav class="navbar navbar-expand-md navbar-dark fixed-top site-navbar">
         <div class="container">
             <a class="navbar-brand" href="#home">Igor <span class="gradient-text">Makoto</span></a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -36,10 +41,12 @@
     </nav>
 
 
+   
     <section class="secao" id="home">
         <div class="container">
             <div class="row align-items-center g-5">
 
+                <!-- Texto -->
                 <div class="col-lg-7 order-2 order-lg-1 home-content">
                     <h3 class="home-title">Olá! Me chamo <span class="gradient-text">Igor Makoto Hoshino</span></h3>
                     <p>Tenho 18 anos e atualmente curso Desenvolvimento de Software Multiplataforma na FATEC. Possuo formação técnica em TI pela Escola Máximu's, onde desenvolvi base em linguagens de programação como Python e Java, bancos de dados (SQL e Firebase), Pacote Office e fundamentos de desenvolvimento de jogos. Apaixonado por tecnologia e resolução de problemas, busco constantemente aprimorar minhas habilidades para me consolidar como um desenvolvedor de software de excelência.</p>
@@ -48,7 +55,7 @@
                         <a href="https://github.com/igormakoto" target="_blank" rel="noopener" aria-label="GitHub">
                             <i class="bx bxl-github"></i>
                         </a>
-                        <a href="https://linkedin.com/in/igor-makoto" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <a href="https://www.linkedin.com/in/igor-makoto-57198b270/" target="_blank" rel="noopener" aria-label="LinkedIn">
                             <i class="bx bxl-linkedin-square"></i>
                         </a>
                     </div>
@@ -56,8 +63,9 @@
                     <a href="#contato" class="btn btn-brand btn-lg">Contato</a>
                 </div>
 
+                
                 <div class="col-lg-5 order-1 order-lg-2 text-center">
-                    <img src="foto portfolio.jpeg" class="foto-glow" alt="Foto de Igor Makoto">
+                    <img src="img/foto minha.jpeg" class="foto-glow" alt="Foto de Igor Makoto">
                 </div>
 
             </div>
@@ -65,17 +73,21 @@
     </section>
 
 
+    
     <section class="secao sobre" id="sobre">
         <div class="container">
             <div class="row align-items-center g-5">
 
+                
                 <div class="col-lg-5 text-center">
-                    <img src="foto portfolio.jpeg" class="foto-glow foto-glow-forte" alt="Foto de Igor Makoto">
+                    <img src="img/foto minha.jpeg" class="foto-glow foto-glow-forte" alt="Foto de Igor Makoto">
                 </div>
 
+                
                 <div class="col-lg-7">
                     <h2 class="sobre-titulo">Informações <span class="gradient-text">Curriculares</span></h2>
 
+                    <!-- Formação -->
                     <h4 class="sobre-subtitulo">Formação</h4>
                     <div class="d-flex flex-column gap-3">
 
@@ -98,33 +110,36 @@
 
                     </div>
 
+                    
                     <h4 class="sobre-subtitulo">Habilidades técnicas</h4>
                     <div class="d-flex flex-column gap-3">
 
                         <div class="skill-box">
                             <h5><i class="bx bx-code-alt"></i> Linguagens</h5>
                             <div class="d-flex flex-wrap gap-2">
-                                <span class="badge rounded-pill skill-tag">Python</span>
-                                <span class="badge rounded-pill skill-tag">Java</span>
-                                <span class="badge rounded-pill skill-tag">HTML/CSS</span>
-                                <span class="badge rounded-pill skill-tag">JavaScript</span>
+                                <span class="badge rounded-pill skill-tag" title="Python"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/python/python-original.svg" class="skill-icon" alt="Python"></span>
+                                <span class="badge rounded-pill skill-tag" title="Java"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/java/java-original.svg" class="skill-icon" alt="Java"></span>
+                                <span class="badge rounded-pill skill-tag" title="HTML"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/html5/html5-original.svg" class="skill-icon" alt="HTML"></span>
+                                <span class="badge rounded-pill skill-tag" title="CSS"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/css3/css3-original.svg" class="skill-icon" alt="CSS"></span>
+                                <span class="badge rounded-pill skill-tag" title="JavaScript"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/javascript/javascript-original.svg" class="skill-icon" alt="JavaScript"></span>
                             </div>
                         </div>
 
                         <div class="skill-box">
                             <h5><i class="bx bx-data"></i> Bancos de dados</h5>
                             <div class="d-flex flex-wrap gap-2">
-                                <span class="badge rounded-pill skill-tag">SQL</span>
-                                <span class="badge rounded-pill skill-tag">Firebase</span>
+                                <span class="badge rounded-pill skill-tag" title="SQL (MySQL)"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/mysql/mysql-original.svg" class="skill-icon" alt="SQL (MySQL)"></span>
+                                <span class="badge rounded-pill skill-tag" title="Firebase"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/firebase/firebase-plain.svg" class="skill-icon" alt="Firebase"></span>
                             </div>
                         </div>
 
                         <div class="skill-box">
                             <h5><i class="bx bx-cog"></i> Ferramentas e outros</h5>
                             <div class="d-flex flex-wrap gap-2">
-                                <span class="badge rounded-pill skill-tag">Pacote Office</span>
-                                <span class="badge rounded-pill skill-tag">Git/GitHub</span>
-                                <span class="badge rounded-pill skill-tag">VS Code</span>
+                                <span class="badge rounded-pill skill-tag" title="Pacote Office"><i class="bx bxl-microsoft skill-icon-bx" aria-label="Pacote Office"></i></span>
+                                <span class="badge rounded-pill skill-tag" title="Git"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/git/git-original.svg" class="skill-icon" alt="Git"></span>
+                                <span class="badge rounded-pill skill-tag" title="GitHub"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/github/github-original.svg" class="skill-icon skill-icon-invert" alt="GitHub"></span>
+                                <span class="badge rounded-pill skill-tag" title="VS Code"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/vscode/vscode-original.svg" class="skill-icon" alt="VS Code"></span>
                             </div>
                         </div>
 
@@ -138,16 +153,18 @@
     </section>
 
 
+
     <section class="secao" id="projetos">
         <div class="container">
-            <h2 class="heading">Projetos <span class="gradient-text">API</span></h2>
-
+            <h2 class="heading">Meus <span class="gradient-text">Projetos</span></h2>
             <div class="row g-4 justify-content-center">
 
-                <div class="col-12 col-xl-10">
+                
+                <div class="col-12 col-lg-6">
                     <div class="card h-100 projeto-card">
-                        <img src="kredita.jpeg" class="card-img-top" alt="Logo do projeto KREDITA">
-                        <div class="card-body d-flex flex-column p-4 p-md-5">
+                        <img src="img/kredita.png" class="card-img-top" alt="Logo do projeto KREDITA">
+
+                        <div class="card-body d-flex flex-column p-4">
                             <h3 class="card-title">KREDITA</h3>
 
                             <p><strong>Empresa parceira:</strong> Dm Card</p>
@@ -157,16 +174,37 @@
                             <p><strong>Soft skills:</strong> Trabalho em equipe colaborativo; organização e planejamento de tarefas com metodologias ágeis (Scrum).</p>
                             <p><strong>Tecnologias utilizadas:</strong> HTML, CSS, Python, Google Colab, Pandas.</p>
 
-                            <a href="https://github.com/print-grupo/KREDITA" class="btn btn-brand mt-auto align-self-start">Ver projeto</a>
+                            <a href="#" class="btn btn-brand mt-auto align-self-start">Ver projeto</a>
                         </div>
                     </div>
                 </div>
 
+
+                
+                <div class="col-12 col-lg-6">
+                    <div class="card h-100 projeto-card">
+                        <img src="img/maxfood.png" class="card-img-top" alt="Logo do projeto MAXFOOD">
+
+                        <div class="card-body d-flex flex-column p-4">
+                            <h3 class="card-title">MAXFOOD</h3>
+
+                            <p><strong>Instituição:</strong> Instituto Educacional Ribeiro Goulart – Escola Máximu's (TCC do Curso Técnico de Informática, 2024)</p>
+                            <p><strong>Sobre:</strong> Aplicativo Android para a compra de lanches na cantina escolar, criado para reduzir as longas filas durante o intervalo. O aluno acessa o app com seu login, vê o saldo e os produtos disponíveis, monta o carrinho e confirma o pagamento, recebendo um recibo da compra. O projeto inclui também um site administrativo, usado para cadastrar alunos, adicionar créditos e gerenciar os produtos, ambos integrados ao banco de dados Cloud Firestore (Firebase).</p>
+                            <p><strong>Contribuição pessoal:</strong> Fiquei responsável pelo site administrativo, onde são cadastrados os alimentos e feita toda a gestão do aplicativo (alunos, créditos e produtos). Desenvolvi o site com HTML, CSS e JavaScript, conectado ao banco de dados Firebase.</p>
+                            <p><strong>Hard skills:</strong> Kotlin, Android Studio, Firebase (Cloud Firestore), HTML, CSS e JavaScript.</p>
+                            <p><strong>Soft skills:</strong> Trabalho em equipe colaborativo.</p>
+                            <p><strong>Tecnologias utilizadas:</strong> Kotlin, Android Studio, Firebase, HTML, CSS, JavaScript.</p>
+
+                            <a href="#" class="btn btn-brand mt-auto align-self-start">Ver projeto</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
 
+    
     <section class="secao contato" id="contato">
         <div class="container">
             <h2 class="heading">Entre em <span class="gradient-text">Contato</span></h2>
@@ -196,6 +234,7 @@
     </section>
 
 
+    
     <footer class="footer">
         <div class="container d-flex justify-content-between align-items-center flex-wrap gap-3">
             <p class="mb-0">&copy; 2026 Igor Makoto Hoshino. Todos os direitos reservados.</p>
@@ -207,7 +246,10 @@
     </footer>
 
 
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
+
 </body>
+
 </html>
